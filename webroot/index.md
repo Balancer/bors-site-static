@@ -8,4 +8,8 @@ navbar:
 
 # Static markdown site example
 
-test...
+## Install
+
+```bash
+composer create-project bors/site-static . --stability=dev
+```
