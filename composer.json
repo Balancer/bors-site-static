@@ -29,7 +29,7 @@
     },
 
     "config": {
-        "disabled-for-debug--preferred-install": "dist"
+        "preferred-install": "dist"
     },
 
     "minimum-stability": "dev",
