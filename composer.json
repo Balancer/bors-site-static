@@ -1,0 +1,27 @@
+{
+    "name": "bors/site-static",
+    "description": "Static markdown site skeleton based on BORS© framework",
+    "type": "project",
+    "keywords": ["site", "markdown", "cms"],
+    "homepage": "http://bors.balancer.ru",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Balancer/bors-site-static/issues",
+        "source": "https://github.com/Balancer/bors-site-static",
+        "docs": "https://github.com/Balancer/bors-site-static/wiki"
+    },
+    "require": {
+        "balancer/bors-core": "*"
+    }
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
