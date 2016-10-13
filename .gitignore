@@ -4,6 +4,7 @@
 composer.lock
 vendor/*
 !*/vendor/*
+bors
 
 # OS Generated
 

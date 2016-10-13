@@ -5,23 +5,33 @@
     "keywords": ["site", "markdown", "cms"],
     "homepage": "http://bors.balancer.ru",
     "license": "GPLv3",
+
     "authors": [
         {
             "name": "Balancer",
             "email": "balancer@balancer.ru"
         }
     ],
+
     "support": {
         "issues": "https://github.com/Balancer/bors-site-static/issues",
         "source": "https://github.com/Balancer/bors-site-static",
         "docs": "https://github.com/Balancer/bors-site-static/wiki"
     },
+
+	"repositories": [
+    	{ "type": "composer", "url": "https://asset-packagist.org" }
+	],
+
     "require": {
-        "balancer/bors-app-site-static": "*"
+        "balancer/bors-app-site-static": "*",
+		"bors/theme-bootstrap3-cdn": "*"
     },
+
     "config": {
-        "preferred-install": "dist"
+        "disabled-for-debug--preferred-install": "dist"
     },
+
     "minimum-stability": "dev",
     "prefer-stable": true
 }
