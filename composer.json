@@ -25,7 +25,7 @@
 
     "require": {
         "balancer/bors-app-site-static": "*",
-		"bors/theme-bootstrap3-cdn": "*"
+		"balancer/bors-theme-bootstrap3": "*"
     },
 
     "config": {
